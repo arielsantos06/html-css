@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+    @font-face {
+        font-family: 'oeste';
+        src: url(Carnevalee\ Freakshow.ttf);
+        font-weight: normal;
+        font-style: normal;
+    }
+
+body{
+        font-family: 'oeste',Arial, Helvetica, sans-serif;
+        background-color: black;
+        color: white;
+        text-align: center;
+        
+}
+    
