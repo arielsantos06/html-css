@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+
+        a,button{
+            cursor: pointer;
+        }
+
+        body{
+            padding: 0 24px;
+            display: grid;
+            background-size: cover;
+            height: 95vh;
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-image: url('imagens/wallpaper005.jpg');
+        }
+
+        main{
+            
+            padding: 70px 30px 44px;
+            border: 2px solid #b1b1b1;
+            background-color: white;
+            border-radius: 10px;
+            place-items: center;
+            width: 400px;
+            margin: auto;
+           
+        }
+
+        main > h2{
+            text-align: center;
+            margin: 0 0 12px;
+            font-size: 36px;
+            font-weight: 600px;
+         }
+
+         main > h3{
+            text-align: center;
+            margin: 0 0 30px;
+            font-size: 16px;
+            color: rgba(0, 0, 0, 0.623);
+         }
+
+         form{
+            margin: 0px;
+            display: grid;
+            gap: 16px;
+         }
+
+         form > input, form > button{
+            
+            height: 56px;
+            padding: 0 16px;
+            border-radius: 7px;
+         }
+
+         
+         form > button:hover{
+            background-color: #b1b1b1;
+            
+         }
+
+         form > a:hover{
+            color: #2779fd9d;
+         }
+
+         form > input{
+            border: 2px solid #b1b1b1;
+            
+         }
+         form > a{
+            color: #216ce7;
+         }
+    </style>
+</head>
+<body>
+    <main>
+       <h2>Login</h2>
+       <h3>Insira suas credenciais</h3>
+       <form>
+            <input type="text" placeholder="Username">
+            <input type="password" placeholder="Senha">
+            <a href="#">Esqueceu sua senha?</a>
+            <button>LOGIN</button>
+       </form>
+    </main>
+</body>
+</html>
