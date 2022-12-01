@@ -1,11 +1,117 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@font-face {
+    font-family:'comic' ;
+    src: url('JandaManateeSolid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
+    background-color:#C8D96C ;
     margin: 0;
     padding: 0;
-    background-color: white;
-    font-family: sans-serif;
+   
+    font-family: 'comic',sans-serif;
     word-wrap: break-word;
     overflow-wrap: break-word;
+}
+
+header{
+    
+    font-family: 'Bebas Neue', cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
+
+header  h1, p{
+    line-height: 2em;
+    margin-bottom: 20px;
+    
+    padding: 10px;
+}
+
+header  a{
+    color: white;
+    text-decoration: none;
+}
+
+header  a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: #F0E56C;
+    padding: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 1000px;
+    
+    
+}
+
+.paralax1{
+    position: relative;
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.paralax1 > p{
+    position: absolute;
+    border-radius: 10px;
+    width: 230px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding: 20px;
+    top: 50px;
+}
+
+.paralax2{
+    position: relative;
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+}
+
+.paralax2 > p{
+    position: absolute;
+    border-radius: 10px;
+    width: 230px;
+    background-color: rgba(0, 0, 0, 0.459);
+    color: white;
+    padding: 20px;
+    top: 50px;
+}
+
+footer{
+    
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+footer > a{
+    color: white;
+    text-decoration: none;
+}
+
+footer > a:hover{
+    
+    text-decoration: underline;
 }
 
