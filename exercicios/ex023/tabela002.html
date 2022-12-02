@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body > h1{
+            text-align: center;
+             }
+
+        table{
+            margin: auto;
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            background-color: lightgray;
+            font-weight: bold;
+            font-size: 1.5em;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        thead, tfoot{
+            color: white;
+            background-color: gray;
+        }
+
+        td{
+            background-color: white;
+        }
+
+        th, td{
+            text-align: center;
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        .numero{
+            text-align: right;
+        }
+
+        .numero1{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--Anatomia para tabelas grandes
+          Table
+           Caption
+            Thead
+                tr,td,th
+             Tbody
+               tr,td,th
+              Tfoot
+                tr,td,th
+    
+    -->
+
+    <table>
+        <caption>Lista de unidades federativas do Brasil por população</caption>
+        <thead>
+            <tr>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">% população total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São Paulo</td>
+                <td class="numero">46 649 132</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td class="numero">21 411 923</td>
+                <td>10,1%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 463 349</td>
+                <td>8,2%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="numero">14 985 284</td>
+                <td>7,1%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td class="numero">10 444 526</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">10 693 929</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernabuco</td>
+                <td class="numero">8 796 448</td>
+                <td>4,5%</td>
+             </tr>
+             <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td class="numero">8 452 381</td>
+                <td>4,3%</td>
+             </tr>
+             <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td class="numero">7 581 051</td>
+                <td>4,1%</td>
+             </tr>
+             <tr>
+                <td>10</td>
+                <td>Santa Catarina</td>
+                <td class="numero">6 248 436</td>
+                <td>3,4%</td>
+             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th></th>
+                <th scope="row">Total de habitantes</th>
+                <td class="numero1"><strong>152.726.459</strong></td>
+                <td class="numero1"><strong>74,4%</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
