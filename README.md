@@ -4,7 +4,7 @@
  Estou aprendendo a criar sites e agora vou gerenciar meus repositórios!
 
  <ul>
-     <li><a href="https://arielsantos06.github.io/link-tree/">Link-Tree</a></li>
-     <li><a href="https://arielsantos06.github.io/projeto-cordel/">Projeto Cordel</a></li>
-     <li><a href="https://arielsantos06.github.io/projeto-android/">Projeto Android</a></li>
+     <li><a href="https://arielsantos06.github.io/link-tree/" target="_blank">Link-Tree</a></li>
+     <li><a href="https://arielsantos06.github.io/projeto-cordel/" target="_blank">Projeto Cordel</a></li>
+     <li><a href="https://arielsantos06.github.io/projeto-android/" target="_blank">Projeto Android</a></li>
  </ul>
